@@ -1,5 +1,4 @@
 {
-
 import logging
 import allure
 from selenium import webdriver
@@ -58,4 +57,5 @@ test_missing_activity()
 # Quit the webdriver
 driver.quit()
 }
+
 

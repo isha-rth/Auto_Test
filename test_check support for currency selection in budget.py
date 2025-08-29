@@ -1,4 +1,3 @@
-{
 import unittest
 import logging
 import os
@@ -58,10 +57,6 @@ class TestBudgetCurrencySelection(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
-
-}
 
 
 

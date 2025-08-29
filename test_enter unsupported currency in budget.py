@@ -1,5 +1,5 @@
 {
-  "text": "import time
+import time
 import logging
 import unittest
 from selenium import webdriver
@@ -47,5 +47,5 @@ class BudgetTest(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-# Add code for capturing screenshot on test failure and integrating with Allure for reporting."
 }
+

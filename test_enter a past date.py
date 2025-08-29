@@ -1,4 +1,3 @@
-{
 import logging
 import os
 import allure
@@ -59,8 +58,3 @@ except AssertionError:
 
 # Closing the WebDriver
 driver.quit()
-
-
-}
-
-

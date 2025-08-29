@@ -7,6 +7,9 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+wait = WebDriverWait(driver, 10) # Waits for up to 10 seconds
+destination = wait.until(EC.presence_of_element_located((By.ID, "locationInput")))
+
 # Setting up logging
 logging.basicConfig(level=logging.INFO)
 
@@ -24,7 +27,7 @@ with allure.step("Open the travel form"):
     driver.get("https://aukrk.github.io/locai-frontend/")
 
 with allure.step("Enter destination as 'Japan'"):
-    destination = driver.find_element(By.NAME, "destination")
+    destination = driver.find_element(By.ID, "locationInput")
     destination.send_keys("Japan")
 
 with allure.step("Enter past date '05-09-2020' as travel date"):
@@ -58,4 +61,5 @@ except AssertionError:
 
 # Closing the WebDriver
 driver.quit()
+
 

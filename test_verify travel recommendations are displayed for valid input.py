@@ -1,5 +1,3 @@
-{
-
 import logging
 import unittest
 import allure
@@ -47,6 +45,3 @@ class TestTravelRecommendations(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-}
-

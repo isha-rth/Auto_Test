@@ -16,19 +16,16 @@ driver.get("https://aukrk.github.io/locai-frontend/")
 logging.info("Opened the website")
 
 # Fill in the form
-destination_field = driver.find_element(By.ID, "destination-input")
+destination_field = driver.find_element(By.ID, "locationInput")
 destination_field.send_keys("Japan")
 
-start_date_field = driver.find_element(By.ID, "start-date")
+start_date_field = driver.find_element(By.ID, "dateInput")
 start_date_field.send_keys("05-09-2025")
 
-budget_field = driver.find_element(By.ID, "budget")
+budget_field = driver.find_element(By.ID, "budgetInput")
 budget_field.send_keys("5000")
 
-currency_dropdown = driver.find_element(By.ID, "currency")
-currency_dropdown.send_keys("AUD")
-
-interests_dropdown = driver.find_element(By.ID, "interests")
+interests_dropdown = driver.find_element(By.ID, "interestsInput")
 interests_dropdown.send_keys("Museums")
 
 # Click on Generate button
@@ -50,3 +47,4 @@ except AssertionError:
 
 # Close the browser
 driver.quit()
+

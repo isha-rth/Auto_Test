@@ -1,5 +1,3 @@
-{
-  
 import allure
 import logging
 import datetime
@@ -54,6 +52,3 @@ except Exception as e:
 
 # Quit the browser
 driver.quit()
-
-}
-

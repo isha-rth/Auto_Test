@@ -31,15 +31,15 @@ with allure.step("Enter destination as 'Japan'"):
     destination.send_keys("Japan")
 
 with allure.step("Enter past date '05-09-2020' as travel date"):
-    travel_date = driver.find_element(By.NAME, "travel_date")
+    travel_date = driver.find_element(By.ID, "dateInput")
     travel_date.send_keys("05-09-2020")
 
 with allure.step("Enter '5000 AUD' as budget"):
-    budget = driver.find_element(By.NAME, "budget")
+    budget = driver.find_element(By.ID, "budgetInput")
     budget.send_keys("5000 AUD")
 
 with allure.step("Select 'Museums' as preferred activity"):
-    activity = Select(driver.find_element(By.NAME, "activity"))
+    activity = Select(driver.find_element(By.ID, "interestsInput"))
     activity.select_by_visible_text("Museums")
 
 with allure.step("Submit the form"):
@@ -61,5 +61,6 @@ except AssertionError:
 
 # Closing the WebDriver
 driver.quit()
+
 
 

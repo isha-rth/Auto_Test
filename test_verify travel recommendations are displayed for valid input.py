@@ -1,7 +1,5 @@
 {
-  "text": "Here is a Selenium Python test script for the test case mentioned:
 
-```python
 import logging
 import unittest
 import allure
@@ -49,11 +47,6 @@ class TestTravelRecommendations(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-```
 
-Make sure to replace `"path/to/chromedriver"` with the actual path to your ChromeDriver executable.
-
-To integrate with Allure for reporting, you will need to install the Allure Python bindings and generate an Allure report after running the test script. You can refer to the Allure documentation for more details on setting up and generating reports.
-
-Additionally, this script captures a screenshot on test failure and saves it as a file. You can further customize the logging and reporting based on your requirements."
 }
+

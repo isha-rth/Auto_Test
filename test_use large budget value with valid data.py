@@ -25,25 +25,25 @@ test_case_title = "Use large budget value with valid data"
 
 # Test Case Steps
 with allure.step("Enter 'Japan' as destination"):
-    destination_input = driver.find_element(By.ID, "destination")
+    destination_input = driver.find_element(By.ID, "locationInput")
     destination_input.clear()
     destination_input.send_keys("Japan")
     logger.info("Entered 'Japan' as destination")
 
 with allure.step("Enter '05-09-2025' as date"):
-    date_input = driver.find_element(By.ID, "date")
+    date_input = driver.find_element(By.ID, "dateInput")
     date_input.clear()
     date_input.send_keys("05-09-2025")
     logger.info("Entered '05-09-2025' as date")
 
 with allure.step("Enter '1000000 AUD' as budget"):
-    budget_input = driver.find_element(By.ID, "budget")
+    budget_input = driver.find_element(By.ID, "budgetInput")
     budget_input.clear()
     budget_input.send_keys("1000000 AUD")
     logger.info("Entered '1000000 AUD' as budget")
 
 with allure.step("Select 'Museums' as the activity"):
-    activity_select = Select(driver.find_element(By.ID, "activity"))
+    activity_select = Select(driver.find_element(By.ID, "interestsInput"))
     activity_select.select_by_visible_text("Museums")
     logger.info("Selected 'Museums' as the activity")
 
@@ -88,4 +88,5 @@ if "Premium" in itinerary_text:
     allure.dynamic.description_html('<h4><span style="color: green;">Expected Result: Itinerary is generated with possibly more premium options</span></h4>')
 else:
     allure.dynamic.description_html('<h4><span style="color: red;">Expected Result: Itinerary is generated with possibly more premium options</span></h4>')
+
 

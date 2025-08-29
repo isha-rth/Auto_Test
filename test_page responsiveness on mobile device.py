@@ -1,7 +1,5 @@
 {
-  "text": "Here is a sample Selenium Python test script for the given test case. Please note that this script assumes you have the necessary dependencies installed and configured. You can run this script in IntelliJ with the appropriate settings for Python.
 
-```python
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -43,7 +41,6 @@ class MobileResponsiveTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-```
 
-You can run this script in IntelliJ by configuring the Python interpreter and setting up the Allure framework for reporting. Make sure to replace the placeholder website URL, add actual test steps, and customize the logging and screenshot capturing as per your requirements."
 }
+

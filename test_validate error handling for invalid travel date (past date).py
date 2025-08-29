@@ -1,4 +1,3 @@
-{
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -51,6 +50,7 @@ public class ValidateInvalidTravelDateTest {
             driver.quit();
         }
     }
-}"
 }
+}
+
 

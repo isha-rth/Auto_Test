@@ -1,4 +1,4 @@
- import logging
+import logging
 import allure
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -47,3 +47,4 @@ def test_validate_error_when_budget_not_entered():
 
 if __name__ == "__main__":
     test_validate_error_when_budget_not_entered()
+

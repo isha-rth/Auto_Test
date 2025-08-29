@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 driver = webdriver.Chrome()
 
 # Open the webpage
-driver.get("URL_TO_YOUR_APPLICATION")
+driver.get("https://aukrk.github.io/locai-frontend/")
 
 # Define the test function
 @allure.title("Attempt to submit with missing activity type")
@@ -55,6 +55,7 @@ test_missing_activity()
 
 # Quit the webdriver
 driver.quit()
+
 
 
 

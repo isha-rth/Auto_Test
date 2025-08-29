@@ -1,7 +1,5 @@
 {
-  "text": "Here is the Selenium Python test script for the given test case. Please note that this script is in Python and not Java, as specified. You can run this script in any Python IDE.
-
-```python
+  
 import time
 import logging
 import allure
@@ -54,9 +52,6 @@ except AssertionError:
 
 # Close the browser
 driver.quit()
-```
 
-To add Allure reporting, you can integrate the allure-pytest library with your test script. You can run the script in an IDE like PyCharm that supports Python.
-
-Please note that this script is in Python, not Java. Let me know if you need further assistance or modifications."
 }
+

@@ -1,5 +1,3 @@
-{
-
 import logging
 import unittest
 from selenium import webdriver
@@ -43,8 +41,3 @@ class TestInterestSelection(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-
-}
-
-

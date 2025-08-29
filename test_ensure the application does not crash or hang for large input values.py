@@ -1,4 +1,3 @@
-{
 import allure
 import logging
 import time
@@ -71,6 +70,4 @@ if __name__ == "__main__":
     test_large_input_handling()
 
 # Close the browser
-browser.quit()"
-}
-
+browser.quit()

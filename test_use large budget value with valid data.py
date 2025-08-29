@@ -1,4 +1,3 @@
-{
 import time
 import logging
 import allure
@@ -88,6 +87,4 @@ allure.dynamic.description_html(
 if "Premium" in itinerary_text:
     allure.dynamic.description_html('<h4><span style="color: green;">Expected Result: Itinerary is generated with possibly more premium options</span></h4>')
 else:
-    allure.dynamic.description_html('<h4><span style="color: red;">Expected Result: Itinerary is generated with possibly more premium options</span></h4>')"
-}
-
+    allure.dynamic.description_html('<h4><span style="color: red;">Expected Result: Itinerary is generated with possibly more premium options</span></h4>')

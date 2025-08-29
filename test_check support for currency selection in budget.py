@@ -1,7 +1,5 @@
 {
-  "text": "Here is a sample Selenium Python test script for the test case you provided. Please note that the test script is in Python, not Java, as requested. Additionally, the script is written for Python and may need to be adapted for IntelliJ as the IDE.
 
-```python
 import unittest
 import logging
 import os
@@ -61,7 +59,8 @@ class TestBudgetCurrencySelection(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-```
+
 
 Please make sure to customize the test script to match the actual website and elements on the page. Additionally, you may need to install the required Python packages using pip (e.g., `pip install selenium allure-pytest`)."
 }
+

@@ -21,7 +21,7 @@ wait = WebDriverWait(driver, 10)
 
 # Test Steps
 with allure.step("Open the travel form"):
-    driver.get("http://www.example.com/travel-form")
+    driver.get("https://aukrk.github.io/locai-frontend/")
 
 with allure.step("Enter destination as 'Japan'"):
     destination = driver.find_element(By.NAME, "destination")
@@ -58,3 +58,4 @@ except AssertionError:
 
 # Closing the WebDriver
 driver.quit()
+

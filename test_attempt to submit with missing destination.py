@@ -1,4 +1,3 @@
-{
 import allure
 import logging
 import unittest
@@ -59,5 +58,6 @@ def run(self):
 
 # After running the test, generate the report by executing:
 # allure serve results"
-}
+
+
 

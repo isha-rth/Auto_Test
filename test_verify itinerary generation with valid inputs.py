@@ -1,5 +1,3 @@
-{
-  
 import time
 import logging
 import allure
@@ -52,6 +50,3 @@ except AssertionError:
 
 # Close the browser
 driver.quit()
-
-}
-

@@ -45,6 +45,6 @@ if __name__ == "__main__":
     unittest.main()
 
 
-You can also add additional logging statements as needed. Also, please ensure you have Allure set up in your project to see the generated test reports."
 }
+
 

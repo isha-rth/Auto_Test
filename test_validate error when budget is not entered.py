@@ -1,7 +1,5 @@
 {
-  "text": "Here is a Selenium Python test script for the given test case using Python, Selenium, and Allure for reporting. This script can be run in IntelliJ with the appropriate configurations and dependencies.
-
-```python
+ 
 import logging
 import allure
 from selenium import webdriver
@@ -51,9 +49,6 @@ def test_validate_error_when_budget_not_entered():
 
 if __name__ == "__main__":
     test_validate_error_when_budget_not_entered()
-```
 
-To run this script in IntelliJ, you need to configure the project with the necessary Python interpreter, Selenium WebDriver, and Allure dependencies. You can use the allure-pytest plugin to generate Allure reports from the test results.
-
-Make sure to replace the placeholder values like site URL, field IDs, button ID, error message ID, etc., with the actual values from your application."
 }
+

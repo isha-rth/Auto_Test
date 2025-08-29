@@ -1,5 +1,4 @@
 {
-
 import logging
 import os
 import allure
@@ -63,4 +62,5 @@ driver.quit()
 
 
 }
+
 

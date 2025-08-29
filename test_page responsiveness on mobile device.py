@@ -1,5 +1,3 @@
-{
-
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -41,6 +39,3 @@ class MobileResponsiveTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-}
-

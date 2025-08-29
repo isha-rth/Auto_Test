@@ -1,7 +1,5 @@
 {
-  "text": "Here is an example of a test script in Python using Selenium for the given test case. Please note that this is a Python script and not Java, as requested:
-
-```python
+  
 import logging
 import time
 import os
@@ -61,13 +59,8 @@ def test_generate_itinerary():
 
 if __name__ == "__main__":
     test_generate_itinerary()
-```
 
-To run this script, you need to have Python installed on your machine along with the required Selenium and Allure libraries. You can install the necessary packages using pip:
-
-```bash
 pip install selenium allure-pytest
-```
 
-You can run this script in any Python IDE or from the command line. This script interacts with the website, inputs the trip details, submits the form, and verifies if the itinerary is generated. The test script includes logging, screenshot capture on failure, and Allure reporting integration."
 }
+

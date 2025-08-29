@@ -50,14 +50,15 @@ def run(self):
         raise
 
 # Allure report integration
-!pip install pytest-allure-adaptor
-!pip install allure-pytest
+# !pip install pytest-allure-adaptor
+# !pip install allure-pytest
 
 # In IntelliJ, run the test with the following command:
 # pytest --alluredir=results TestSubmitForm.py
 
 # After running the test, generate the report by executing:
 # allure serve results"
+
 
 
 

@@ -1,4 +1,3 @@
-{
 import allure
 import logging
 import os
@@ -55,7 +54,3 @@ def test_enter_low_budget():
 
 if __name__ == "__main__":
     test_enter_low_budget()
-
-}
-
-

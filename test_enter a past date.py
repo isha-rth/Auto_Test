@@ -1,7 +1,5 @@
 {
-  "text": "Here is the Selenium Python test script for the given test case:
 
-```python
 import logging
 import os
 import allure
@@ -63,7 +61,6 @@ except AssertionError:
 # Closing the WebDriver
 driver.quit()
 
-```
 
-This script includes the steps to perform the test case, logging, screenshot capture on failure, and integration with Allure reporting. You can run this script in IntelliJ with the required configurations for Python and Selenium."
 }
+

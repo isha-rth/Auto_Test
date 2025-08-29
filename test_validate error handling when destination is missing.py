@@ -1,5 +1,3 @@
-{
-  
 import allure
 import os
 import logging
@@ -51,6 +49,3 @@ def test_missing_destination():
         
 if __name__ == "__main__":
     test_missing_destination()
-
-}
-

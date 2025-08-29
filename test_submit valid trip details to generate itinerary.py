@@ -1,5 +1,3 @@
-{
-  
 import logging
 import time
 import os
@@ -61,6 +59,3 @@ if __name__ == "__main__":
     test_generate_itinerary()
 
 pip install selenium allure-pytest
-
-}
-

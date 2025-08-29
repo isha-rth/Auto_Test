@@ -1,5 +1,5 @@
 {
-  "text": "```python
+
 import logging
 import allure
 from selenium import webdriver
@@ -57,7 +57,5 @@ test_missing_activity()
 
 # Quit the webdriver
 driver.quit()
-```
-
-Make sure to replace `"URL_TO_YOUR_APPLICATION"` with the actual URL of your application. Also, ensure that the element IDs used in the script (`"destination"`, `"date"`, `"budget"`, `"submit"`, `"error_message"`) match the IDs of the corresponding elements on your webpage."
 }
+

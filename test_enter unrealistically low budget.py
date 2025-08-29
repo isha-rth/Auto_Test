@@ -1,7 +1,5 @@
 {
-  "text": "Here is a sample Selenium test script in Python for the given test case. Please note that this script is in Python, as requested, not Java:
 
-```python
 import allure
 import logging
 import os
@@ -58,13 +56,6 @@ def test_enter_low_budget():
 
 if __name__ == "__main__":
     test_enter_low_budget()
-```
 
-In this script:
-- We set up logging to log the test steps and exceptions.
-- We use the allure framework to generate dynamic test titles and descriptions and attach screenshots on test failures.
-- The test inputs are entered on the web page, and the form is submitted.
-- If the system does not warn the user about the low budget, the script logs an error and captures a screenshot.
-
-Please modify the test script according to the actual URLs, locators, and website behavior before running the test."
 }
+

@@ -61,6 +61,7 @@ if __name__ == '__main__':
     unittest.main()
 
 
-Please make sure to customize the test script to match the actual website and elements on the page. Additionally, you may need to install the required Python packages using pip (e.g., `pip install selenium allure-pytest`)."
+
 }
+
 

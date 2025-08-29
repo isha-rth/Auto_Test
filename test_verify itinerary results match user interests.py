@@ -18,10 +18,10 @@ driver = webdriver.Chrome()
 driver.get("https://samplewebsite.com")
 
 # Fill in the form with the given inputs
-driver.find_element(By.ID, "location_input").send_keys("Japan")
-driver.find_element(By.ID, "date_input").send_keys(datetime.datetime.now().strftime("%m/%d/%Y"))
-driver.find_element(By.ID, "budget_input").send_keys("5000")
-driver.find_element(By.ID, "interest_input").send_keys("Museums")
+driver.find_element(By.ID, "locationInput").send_keys("Japan")
+driver.find_element(By.ID, "dateInput").send_keys(datetime.datetime.now().strftime("%m/%d/%Y"))
+driver.find_element(By.ID, "budgetInput").send_keys("5000")
+driver.find_element(By.ID, "interestsInput").send_keys("Museums")
 driver.find_element(By.ID, "generate_button").click()
 
 # Capture a screenshot on test failure
@@ -52,3 +52,4 @@ except Exception as e:
 
 # Quit the browser
 driver.quit()
+

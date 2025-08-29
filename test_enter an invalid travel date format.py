@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 driver = webdriver.Chrome()
 
 # Open the webpage
-driver.get('https://exampletravelwebsite.com')
+driver.get('https://aukrk.github.io/locai-frontend/')
 
 # Main test logic
 def test_invalid_date_format():
@@ -55,3 +55,4 @@ if __name__ == "__main__":
     finally:
         allure.dynamic.title("Enter an invalid travel date format")
         driver.quit()
+

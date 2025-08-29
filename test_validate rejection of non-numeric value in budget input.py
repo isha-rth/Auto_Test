@@ -1,7 +1,5 @@
 {
-  "text": "Here's the Selenium Python test script for the given test case:
 
-```python
 import allure
 import unittest
 from selenium import webdriver
@@ -68,7 +66,6 @@ class TestBudgetValidation(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-```
 
-Note: Replace the placeholders such as "URL_OF_YOUR_SITE", element IDs, and other necessary details with the actual values from your application. This script uses the unittest framework and Allure for reporting. Remember to set up Allure in your project for the reporting to work."
 }
+

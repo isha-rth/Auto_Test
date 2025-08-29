@@ -1,7 +1,5 @@
 {
-  "text": "Here is a complete Python Selenium test script for the specified test case using Java and Selenium, integrated with Allure for reporting:
-
-```python
+  
 import allure
 import os
 import logging
@@ -53,7 +51,6 @@ def test_missing_destination():
         
 if __name__ == "__main__":
     test_missing_destination()
-```
 
-Make sure to replace "path/to/chromedriver" and "URL" with the actual path to ChromeDriver executable and the URL of the site you want to test, respectively. This script will capture screenshots on test failure and integrate with Allure for reporting."
 }
+

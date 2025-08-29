@@ -1,7 +1,5 @@
 {
-  "text": "Here is a Selenium Python test script for the given test case. This script uses Python, Selenium, logging, takes a screenshot on test failure, and integrates with Allure for reporting.
 
-```python
 import logging
 import unittest
 from selenium import webdriver
@@ -45,9 +43,8 @@ class TestInterestSelection(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-```
 
-Make sure to update the `url_of_the_site` with the actual URL of the site where you are running the test. This script sets up a Chrome WebDriver, opens the site, fills in the required fields, leaves the Interests empty, clicks the 'Generate' button, verifies the error message, and takes a screenshot on test failure. The script integrates with Allure for reporting.
 
 You can also add additional logging statements as needed. Also, please ensure you have Allure set up in your project to see the generated test reports."
 }
+

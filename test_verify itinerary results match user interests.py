@@ -1,7 +1,5 @@
 {
-  "text": "Here is a sample Selenium Python test script for the provided test case. This script uses Java and Selenium, generates a complete script for IntelliJ, includes logging, captures a screenshot on test failure, and integrates with Allure for reporting:
-
-```python
+  
 import allure
 import logging
 import datetime
@@ -56,7 +54,6 @@ except Exception as e:
 
 # Quit the browser
 driver.quit()
-```
 
-You can copy this script into your IntelliJ project and run it as a Selenium test. Make sure to replace the website URL and the validation logic in the `verify_itinerary()` method based on the actual website structure and expected results."
 }
+

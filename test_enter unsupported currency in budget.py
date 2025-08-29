@@ -1,4 +1,3 @@
-{
 import time
 import logging
 import unittest
@@ -46,6 +45,3 @@ class BudgetTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-}
-

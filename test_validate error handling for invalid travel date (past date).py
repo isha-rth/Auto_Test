@@ -1,5 +1,5 @@
 {
-  "text": "import org.openqa.selenium.*;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -53,3 +53,4 @@ public class ValidateInvalidTravelDateTest {
     }
 }"
 }
+

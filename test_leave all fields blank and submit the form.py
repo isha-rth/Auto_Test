@@ -1,5 +1,5 @@
 {
-  "text": "import unittest
+import unittest
 import logging
 import time
 from selenium import webdriver
@@ -36,3 +36,4 @@ class FormTest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()"
 }
+

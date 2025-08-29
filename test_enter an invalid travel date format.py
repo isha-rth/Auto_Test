@@ -1,7 +1,5 @@
 {
-  "text": "Here is a sample Selenium Python test script for the provided test case:
 
-```python
 import logging
 import allure
 from selenium import webdriver
@@ -59,7 +57,6 @@ if __name__ == "__main__":
     finally:
         allure.dynamic.title("Enter an invalid travel date format")
         driver.quit()
-```
 
-This script sets up logging, initializes the WebDriver, opens the webpage, enters the required information, and verifies the error message for the invalid date format. It also captures a screenshot in case of test failure and integrates with Allure for reporting. Note that the Allure reporting library needs to be installed and properly configured in your project."
 }
+
